@@ -1,0 +1,163 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+}
+
+.navbar-brand img{
+    height: 50px;
+    width: 80px;
+    
+}
+.bg-black{
+    background-color:white;
+}
+
+.custom-font-h3{
+    font-size: 40px;
+}
+.home-slider h2{
+    font-size: 48px;
+    line-height: auto;
+
+}
+.home-slider .btn-outline-light {
+    font-size: 28px;
+    line-height: normal;
+
+}
+
+.about-section p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+/* testmimonials */
+
+#testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonials .row{
+    margin-top: 30px;
+
+}
+.col-md-4{
+    margin: 40px auto;
+}
+
+.profile{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile img{
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid #fff;
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #007bff;
+}
+#testimonials span{
+    font-size: 12px;
+    color: #333;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+
+}
+blockquote::before{
+    content: \93;
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+}
+
+blockquote::after{
+    content: \94;
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+}
+
+.profile:hover
+{
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* contact */
+
+#content{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form{
+    padding: 15px;
+
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+::placeholder{
+    color: #999 !important
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+
+
+/* location */
+
+.map-container{
+    overflow:hidden;
+  
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:60%;
+    width:100%;
+    position:absolute;
+    }
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
